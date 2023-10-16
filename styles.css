@@ -35,3 +35,12 @@ body {
 	grid-column: 1/5;
 	grid-row: 3/4;
 }
+
+.text::first-line {
+	color: yellow;
+}
+
+.text::first-letter {
+	color: red;
+	text-transform: capitalize;
+}
